@@ -1,5 +1,7 @@
 import numpy as np
 import hashlib
+import os
+import re
 from skimage.morphology import skeletonize
 from Crypto.Cipher import AES
 from Crypto.Util.Padding import pad
@@ -10,6 +12,16 @@ def key_expansion(key):
     hash_obj = hashlib.sha256()
     hash_obj.update(key.encode('utf-8'))
     return hash_obj.digest()
+
+def generate_iv(key, plaintext):
+    """Generate an IV using the first 8 bytes of the key and first 8 bytes of the plaintext."""
+    if len(key) < 8 or len(plaintext) < 8:
+        raise ValueError("Key and plaintext must be at least 8 bytes long.")
+
+    iv_key_part = key[:7].encode('utf-8')  # Convert the first 8 bytes of key to bytes
+    iv_plaintext_part = plaintext[:7]      # First 8 bytes of plaintext
+
+    return iv_key_part + b'IV' + iv_plaintext_part
 
 def compress_256_to_128(data):
     """Compress 256 bits to 128 bits using XOR."""
@@ -34,8 +46,11 @@ def encrypt_aes_cbc(plaintext, key):
     # Expand the key to 256 bits
     expanded_key = key_expansion(key)
 
+    # Generate IV from first 8 bytes of key and plaintext
+    iv = generate_iv(key, plaintext)
+
     # Create AES cipher in CBC mode with the specific IV
-    cipher = AES.new(expanded_key, AES.MODE_CBC, 'iv')
+    cipher = AES.new(expanded_key, AES.MODE_CBC, iv)
 
     # Encrypt the plaintext
     encrypted_data = cipher.encrypt(pad(plaintext, AES.block_size))

@@ -157,3 +157,15 @@ first_4_bits_str = format(first_4_bits, '04b')
 
 # Concatenate the binary strings to form a 132-bit string
 final_bit_string = encrypted_data_bits + first_4_bits_str
+
+# Extract the last 11 bits of the final 132-bit string
+last_11_bits = final_bit_string[-11:]
+
+# Convert last 11 bits to an integer
+word_index = int(last_11_bits, 2)
+
+with open('english.txt', 'r') as f:
+    wordlist = f.read().splitlines()
+
+# Print the corresponding word from the wordlist
+print(f"The mnemonic word: {wordlist[word_index]}")

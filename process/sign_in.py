@@ -123,9 +123,11 @@ def face_analyzer(img):
     return result
 
 # Execution
-face_path = input('Face Picture Path:')
-finger_path = input('Fingerprint Picture Path:')
+AUTHENTICATION = False
+face_path = input('Face Picture:')
+finger_path = input('Fingerprint Picture:')
 key = input('Passphrase (at least 13 char):')
+mnemonic = input('Recovery Word:')
 
 face_analysis_result = face_analyzer(face_path)
 img1 = cv2.imread(finger_path, cv2.IMREAD_GRAYSCALE)
@@ -157,3 +159,19 @@ first_4_bits_str = format(first_4_bits, '04b')
 
 # Concatenate the binary strings to form a 132-bit string
 final_bit_string = encrypted_data_bits + first_4_bits_str
+
+# Extract the last 11 bits of the final 132-bit string
+last_11_bits = final_bit_string[-11:]
+
+# Convert last 11 bits to an integer
+word_index = int(last_11_bits, 2)
+
+with open('english.txt', 'r') as f:
+    wordlist = f.read().splitlines()
+
+# Check similarity
+if mnemonic == wordlist[word_index]:
+    AUTHENTICATION = True
+    print(f"WELCOME")
+else:
+    print(f"UNSUCCESSFUL AUTHENTICATION")

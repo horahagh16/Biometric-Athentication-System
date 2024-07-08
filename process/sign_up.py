@@ -139,3 +139,21 @@ sha256_hash = hashlib.sha256(processed_biometric.encode()).digest()
 plaintext = sha256_hash   # 256-bit input (32 bytes)
 
 encrypted_data = encrypt_aes_cbc(plaintext, key)
+
+# Compute SHA-256 checksum
+checksum = hashlib.sha256(encrypted_data).digest()
+
+# Extract the first byte of the checksum
+first_byte = checksum[0]
+
+# Extract the first 4 bits (by shifting right by 4 bits)
+first_4_bits = first_byte >> 4
+
+# Convert the 16 bytes of encrypted_data to a binary string (128 bits)
+encrypted_data_bits = ''.join(format(byte, '08b') for byte in encrypted_data)
+
+# Convert the first 4 bits of the checksum to a binary string
+first_4_bits_str = format(first_4_bits, '04b')
+
+# Concatenate the binary strings to form a 132-bit string
+final_bit_string = encrypted_data_bits + first_4_bits_str

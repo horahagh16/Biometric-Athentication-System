@@ -1,0 +1,200 @@
+/content/sad/cropped_emotions.5840.png sadManwhite
+/content/sad/cropped_emotions.5841.png happyWomanasian
+/content/sad/cropped_emotions.5842.png sadWomanwhite
+/content/sad/cropped_emotions.5843.png sadWomanwhite
+/content/sad/cropped_emotions.5845.png sadWomanwhite
+/content/sad/cropped_emotions.5847.png sadManasian
+/content/sad/cropped_emotions.5848.png sadManwhite
+/content/sad/cropped_emotions.5849.png sadWomanwhite
+/content/sad/cropped_emotions.5851.png sadManlatino hispanic
+/content/sad/cropped_emotions.5852.png sadWomanasian
+/content/sad/cropped_emotions.5854.png sadWomanlatino hispanic
+/content/sad/cropped_emotions.5856.png fearWomanlatino hispanic
+/content/sad/cropped_emotions.5857.png sadManwhite
+/content/sad/cropped_emotions.5858.png happyManwhite
+/content/sad/cropped_emotions.5859.png sadManwhite
+/content/sad/cropped_emotions.5862.png sadManwhite
+/content/sad/cropped_emotions.5864.png sadWomanasian
+/content/sad/cropped_emotions.5867.png fearManasian
+/content/sad/cropped_emotions.5869.png sadManblack
+/content/sad/cropped_emotions.5870.png sadManmiddle eastern
+/content/sad/cropped_emotions.5874.png angryManmiddle eastern
+/content/sad/cropped_emotions.5876.png happyWomanasian
+/content/sad/cropped_emotions.5877.png sadManwhite
+/content/sad/cropped_emotions.5881.png happyManwhite
+/content/sad/cropped_emotions.5882.png sadManasian
+/content/sad/cropped_emotions.5885.png fearWomanasian
+/content/sad/cropped_emotions.5887.png sadManlatino hispanic
+/content/sad/cropped_emotions.5888.png sadWomanasian
+/content/sad/cropped_emotions.5890.png fearWomanlatino hispanic
+/content/sad/cropped_emotions.5891.png sadManasian
+/content/sad/cropped_emotions.5892.png happyWomanlatino hispanic
+/content/sad/cropped_emotions.5893.png sadWomanwhite
+/content/sad/cropped_emotions.5894.png sadWomanwhite
+/content/sad/cropped_emotions.5899.png sadManlatino hispanic
+/content/sad/cropped_emotions.5900.png sadManasian
+/content/sad/cropped_emotions.5902.png fearWomanwhite
+/content/sad/cropped_emotions.5904.png sadWomanwhite
+/content/sad/cropped_emotions.5906.png sadManasian
+/content/sad/cropped_emotions.5907.png sadManwhite
+/content/sad/cropped_emotions.5908.png sadManasian
+/content/sad/cropped_emotions.5909.png sadWomanasian
+/content/sad/cropped_emotions.5911.png sadWomanasian
+/content/sad/cropped_emotions.5914.png angryManwhite
+/content/sad/cropped_emotions.5915.png sadManlatino hispanic
+/content/sad/cropped_emotions.5919.png sadWomanwhite
+/content/sad/cropped_emotions.5921.png sadManblack
+/content/sad/cropped_emotions.5923.png fearWomanwhite
+/content/sad/cropped_emotions.5924.png sadManasian
+/content/sad/cropped_emotions.5925.png fearManwhite
+/content/sad/cropped_emotions.5927.png angryManasian
+/content/sad/cropped_emotions.5928.png fearManasian
+/content/sad/cropped_emotions.5930.png angryWomanwhite
+/content/sad/cropped_emotions.5931.png fearWomanwhite
+/content/sad/cropped_emotions.5932.png fearWomanasian
+/content/sad/cropped_emotions.5933.png fearWomanwhite
+/content/sad/cropped_emotions.5934.png sadManlatino hispanic
+/content/sad/cropped_emotions.5943.png fearWomanlatino hispanic
+/content/sad/cropped_emotions.5945.png sadManblack
+/content/sad/cropped_emotions.6085.png sadWomanwhite
+/content/sad/cropped_emotions.6086.png sadManasian
+/content/sad/cropped_emotions.6088.png angryWomanasian
+/content/sad/cropped_emotions.6089.png sadWomanwhite
+/content/sad/cropped_emotions.6090.png angryManasian
+/content/sad/cropped_emotions.6091.png fearManblack
+/content/sad/cropped_emotions.6092.png sadWomanwhite
+/content/sad/cropped_emotions.6093.png sadManasian
+/content/sad/cropped_emotions.6095.png sadManasian
+/content/sad/cropped_emotions.6096.png sadWomanwhite
+/content/sad/cropped_emotions.6097.png fearManasian
+/content/sad/cropped_emotions.6103.png sadManblack
+/content/sad/cropped_emotions.6104.png fearManwhite
+/content/sad/cropped_emotions.6105.png angryWomanwhite
+/content/sad/cropped_emotions.6107.png angryManwhite
+/content/sad/cropped_emotions.6108.png sadManwhite
+/content/sad/cropped_emotions.6109.png sadManasian
+/content/sad/cropped_emotions.6110.png sadManasian
+/content/sad/cropped_emotions.6111.png sadManwhite
+/content/sad/cropped_emotions.6112.png angryManblack
+/content/sad/cropped_emotions.6113.png angryManasian
+/content/sad/cropped_emotions.6114.png angryManwhite
+/content/sad/cropped_emotions.6115.png sadManasian
+/content/sad/cropped_emotions.6116.png sadManblack
+/content/sad/cropped_emotions.6117.png sadManblack
+/content/sad/cropped_emotions.6118.png sadWomanwhite
+/content/sad/cropped_emotions.6119.png sadManwhite
+/content/sad/cropped_emotions.6121.png fearWomanwhite
+/content/sad/cropped_emotions.6122.png sadManlatino hispanic
+/content/sad/cropped_emotions.6123.png angryManasian
+/content/sad/cropped_emotions.6125.png sadManwhite
+/content/sad/cropped_emotions.6126.png sadManwhite
+/content/sad/cropped_emotions.6130.png sadManasian
+/content/sad/cropped_emotions.6131.png fearManasian
+/content/sad/cropped_emotions.6132.png sadManwhite
+/content/sad/cropped_emotions.6133.png sadManwhite
+/content/sad/cropped_emotions.6136.png sadWomanwhite
+/content/sad/cropped_emotions.6137.png angryManmiddle eastern
+/content/sad/cropped_emotions.6139.png sadManlatino hispanic
+/content/sad/cropped_emotions.6140.png sadManwhite
+/content/sad/cropped_emotions.6143.png fearWomanwhite
+/content/sad/cropped_emotions.6146.png surpriseManwhite
+/content/sad/cropped_emotions.6147.png sadWomanwhite
+/content/sad/cropped_emotions.6151.png sadWomanwhite
+/content/sad/cropped_emotions.6153.png sadManlatino hispanic
+/content/sad/cropped_emotions.6154.png happyManlatino hispanic
+/content/sad/cropped_emotions.6155.png sadManmiddle eastern
+/content/sad/cropped_emotions.6156.png sadWomanasian
+/content/sad/cropped_emotions.6158.png sadManasian
+/content/sad/cropped_emotions.6159.png sadWomanwhite
+/content/sad/cropped_emotions.6160.png sadManblack
+/content/sad/cropped_emotions.6161.png fearManwhite
+/content/sad/cropped_emotions.6162.png sadWomanwhite
+/content/sad/cropped_emotions.6163.png sadManlatino hispanic
+/content/sad/cropped_emotions.6165.png sadWomanwhite
+/content/sad/cropped_emotions.6166.png happyWomanwhite
+/content/sad/cropped_emotions.6167.png angryManasian
+/content/sad/cropped_emotions.6168.png happyWomanwhite
+/content/sad/cropped_emotions.6169.png sadManblack
+/content/sad/cropped_emotions.6170.png happyManwhite
+/content/sad/cropped_emotions.6171.png fearManwhite
+/content/sad/cropped_emotions.6172.png sadManblack
+/content/sad/cropped_emotions.6175.png sadManindian
+/content/sad/cropped_emotions.6176.png angryManlatino hispanic
+/content/sad/cropped_emotions.6178.png fearWomanwhite
+/content/sad/cropped_emotions.6179.png angryManwhite
+/content/sad/cropped_emotions.6182.png sadManmiddle eastern
+/content/sad/cropped_emotions.6183.png sadManasian
+/content/sad/cropped_emotions.6186.png happyManlatino hispanic
+/content/sad/cropped_emotions.6188.png sadWomanasian
+/content/sad/cropped_emotions.6189.png happyManwhite
+/content/sad/cropped_emotions.6191.png sadManwhite
+/content/sad/cropped_emotions.6192.png sadWomanwhite
+/content/sad/cropped_emotions.6193.png sadManblack
+/content/sad/cropped_emotions.6194.png happyManlatino hispanic
+/content/sad/cropped_emotions.6195.png angryManlatino hispanic
+/content/sad/cropped_emotions.6196.png fearManwhite
+/content/sad/cropped_emotions.6197.png sadManwhite
+/content/sad/cropped_emotions.6198.png surpriseManblack
+/content/sad/cropped_emotions.6199.png sadManwhite
+/content/sad/cropped_emotions.6201.png sadManwhite
+/content/sad/cropped_emotions.6204.png sadManwhite
+/content/sad/cropped_emotions.6206.png sadManasian
+/content/sad/cropped_emotions.6208.png sadManwhite
+/content/sad/cropped_emotions.6209.png sadWomanlatino hispanic
+/content/sad/cropped_emotions.6210.png sadWomanwhite
+/content/sad/cropped_emotions.6211.png sadManlatino hispanic
+/content/sad/cropped_emotions.6213.png fearManwhite
+/content/sad/cropped_emotions.6214.png sadWomanwhite
+/content/sad/cropped_emotions.6215.png sadWomanwhite
+/content/sad/cropped_emotions.6216.png fearManasian
+/content/sad/cropped_emotions.6217.png surpriseWomanwhite
+/content/sad/cropped_emotions.6218.png angryManlatino hispanic
+/content/sad/cropped_emotions.6222.png fearWomanwhite
+/content/sad/cropped_emotions.6224.png sadWomanasian
+/content/sad/cropped_emotions.6225.png fearWomanwhite
+/content/sad/cropped_emotions.6227.png angryWomanasian
+/content/sad/cropped_emotions.6229.png happyWomanwhite
+/content/sad/cropped_emotions.6230.png fearManasian
+/content/sad/cropped_emotions.6233.png fearWomanwhite
+/content/sad/cropped_emotions.6234.png sadWomanwhite
+/content/sad/cropped_emotions.6236.png angryWomanwhite
+/content/sad/cropped_emotions.6237.png angryManlatino hispanic
+/content/sad/cropped_emotions.6239.png fearManwhite
+/content/sad/cropped_emotions.6240.png sadManwhite
+/content/sad/cropped_emotions.6242.png angryManasian
+/content/sad/cropped_emotions.6243.png sadManwhite
+/content/sad/cropped_emotions.6246.png sadManmiddle eastern
+/content/sad/cropped_emotions.6247.png fearWomanlatino hispanic
+/content/sad/cropped_emotions.6248.png sadWomanwhite
+/content/sad/cropped_emotions.6249.png happyManasian
+/content/sad/cropped_emotions.6250.png sadManasian
+/content/sad/cropped_emotions.6251.png sadManwhite
+/content/sad/cropped_emotions.6252.png fearManwhite
+/content/sad/cropped_emotions.6253.png angryManlatino hispanic
+/content/sad/cropped_emotions.6255.png sadWomanasian
+/content/sad/cropped_emotions.6257.png sadManindian
+/content/sad/cropped_emotions.6258.png happyManwhite
+/content/sad/cropped_emotions.6260.png angryWomanwhite
+/content/sad/cropped_emotions.6261.png happyWomanasian
+/content/sad/cropped_emotions.6262.png sadWomanwhite
+/content/sad/cropped_emotions.6263.png sadManblack
+/content/sad/cropped_emotions.6264.png sadManwhite
+/content/sad/cropped_emotions.6265.png sadWomanwhite
+/content/sad/cropped_emotions.6267.png sadManwhite
+/content/sad/cropped_emotions.6269.png sadManindian
+/content/sad/cropped_emotions.6270.png sadWomanwhite
+/content/sad/cropped_emotions.6271.png sadWomanwhite
+/content/sad/cropped_emotions.6272.png angryManasian
+/content/sad/cropped_emotions.6273.png sadManwhite
+/content/sad/cropped_emotions.6274.png sadManasian
+/content/sad/cropped_emotions.6275.png sadManwhite
+/content/sad/cropped_emotions.6276.png sadWomanasian
+/content/sad/cropped_emotions.6277.png fearManasian
+/content/sad/cropped_emotions.6280.png sadWomanasian
+/content/sad/cropped_emotions.6282.png sadWomanlatino hispanic
+/content/sad/cropped_emotions.6283.png fearWomanwhite
+/content/sad/cropped_emotions.6284.png sadWomanwhite
+/content/sad/cropped_emotions.6285.png sadWomanwhite
+/content/sad/cropped_emotions.6286.png sadManasian
+/content/sad/cropped_emotions.6287.png fearWomanwhite
+/content/sad/cropped_emotions.6288.png sadManasian

@@ -1,0 +1,48 @@
+/content/angry/Angry_1017.png angryWomanwhite
+/content/angry/Angry_1022.png angryManblack
+/content/angry/Angry_1026.png neutralManwhite
+/content/angry/Angry_1033.png angryWomanwhite
+/content/angry/Angry_1034.png surpriseManwhite
+/content/angry/Angry_1053.png angryManwhite
+/content/angry/Angry_1054.png angryWomanwhite
+/content/angry/Angry_1067.png angryManwhite
+/content/angry/Angry_1076.png angryManwhite
+/content/angry/Angry_1082.png angryManindian
+/content/angry/Angry_1091.png fearManwhite
+/content/angry/Angry_1101.png angryManasian
+/content/angry/Angry_1102.png angryWomanlatino hispanic
+/content/angry/Angry_1128.png angryManwhite
+/content/angry/Angry_1129.png angryManwhite
+/content/angry/Angry_373.png sadManwhite
+/content/angry/Angry_374.png angryManasian
+/content/angry/Angry_419.png angryWomanwhite
+/content/angry/Angry_421.png angryManlatino hispanic
+/content/angry/Angry_455.png neutralManwhite
+/content/angry/Angry_460.png angryManwhite
+/content/angry/Angry_470.png neutralManwhite
+/content/angry/Angry_471.png sadManindian
+/content/angry/Angry_487.png angryManlatino hispanic
+/content/angry/Angry_489.png angryManmiddle eastern
+/content/angry/Angry_523.png angryManlatino hispanic
+/content/angry/Angry_538.png angryManwhite
+/content/angry/Angry_558.png angryManmiddle eastern
+/content/angry/Angry_559.png angryManblack
+/content/angry/Angry_572.png fearManmiddle eastern
+/content/angry/Angry_649.png angryManwhite
+/content/angry/Angry_658.png angryWomanwhite
+/content/angry/Angry_722.png happyManblack
+/content/angry/Angry_726.png fearWomanwhite
+/content/angry/Angry_735.png sadManwhite
+/content/angry/Angry_753.png neutralManwhite
+/content/angry/Angry_765.png angryWomanwhite
+/content/angry/Angry_778.png angryManblack
+/content/angry/Angry_811.png angryWomanwhite
+/content/angry/Angry_836.png angryManwhite
+/content/angry/Angry_899.png angryManmiddle eastern
+/content/angry/Angry_923.png neutralManblack
+/content/angry/Angry_959.png sadManwhite
+/content/angry/Angry_966.png angryManblack
+/content/angry/Angry_979.png neutralManblack
+/content/angry/Angry_981.png neutralManwhite
+/content/angry/Angry_990.png angryManasian
+/content/angry/Angry_999.png angryManindian

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biometric Authentication System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Biometric Authentication System</h1>
+        
+        <form id="authForm">
+            <div class="form-group">
+                <label for="process">Choose Process:</label>
+                <select id="process" name="process" required>
+                    <option value="signup">Signup</option>
+                    <option value="login">Login</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="faceImage">Upload Face Image:</label>
+                <input type="file" id="faceImage" name="faceImage" accept="image/*" required>
+            </div>
+
+            <div class="form-group">
+                <label for="fingerImage">Upload Fingerprint Image:</label>
+                <input type="file" id="fingerImage" name="fingerImage" accept="image/*" required>
+            </div>
+
+            <div class="form-group">
+                <label for="passphrase">Passphrase (at least 13 characters, including uppercase, lowercase, digit, and special character):</label>
+                <input type="password" id="passphrase" name="passphrase" minlength="13" required>
+            </div>
+
+            <div class="form-group" id="mnemonicGroup" style="display:none;">
+                <label for="mnemonic">Recovery Word:</label>
+                <input type="text" id="mnemonic" name="mnemonic">
+            </div>
+
+            <button type="submit" id="submitButton">Submit</button>
+        </form>
+
+        <div id="response"></div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

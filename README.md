@@ -19,9 +19,9 @@ The Biometric Authentication System leverages biometric data, such as facial rec
 ## Features
 
 - **Biometric Authentication**: Uses facial recognition and fingerprint analysis to authenticate users.
-- **Digital Wallet Security**: Potentially integrates with deterministic digital wallets to enhance security.
 - **Frontend and Backend Integration**: A full-stack solution with both frontend and backend components for seamless user experience.
 - **User Registration and Authentication**: Supports user sign-up and login processes using biometric data.
+- **Digital Wallet Security**: Potentially integrates with deterministic digital wallets to enhance security.
 
 ## Installation
 
@@ -56,6 +56,7 @@ To set up the Biometric Authentication System locally, follow these steps:
 
 3. **Testing and Validation:**
    - You can use test data to verify the functionality of the biometric authentication system by following the process outlined in the `analysis/Biometric_Authentication_System.ipynb` notebook.
+   - Here is my [dataset](https://drive.google.com/drive/folders/1_QXhFUDC0lltlQL6hpTlnkFc_vlDmFvb?usp=drive_link)
 
 ## Project Structure
 

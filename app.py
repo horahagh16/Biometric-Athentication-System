@@ -8,9 +8,40 @@ import shutil
 from skimage.morphology import skeletonize
 from Crypto.Cipher import AES
 from Crypto.Util.Padding import pad
+from argon2 import PasswordHasher
+from hkdf import Hkdf
 from deepface import DeepFace
 
 app = Flask(__name__)
+
+def derive_seed_from_biometric_salt(passphrase, biometric_data):
+    """
+    Derives a seed for BIP-39 mnemonic using Argon2id and HKDF,
+    with the salt derived from the biometric data.
+    """
+    # 1. Derive the salt from the biometric data.
+    #    We'll use the first 16 bytes of the SHA-256 hash of the biometric data as the salt.
+    biometric_hash_for_salt = hashlib.sha256(biometric_data.encode('utf-8')).digest()
+    print(f"\nProcessed_biometric = {biometric_data.encode('utf-8')}")
+    data = passphrase.encode('utf-8') + b'|' + biometric_hash_for_salt + b'|wallet-v1'
+    print(f"Pre_salt ={data}")
+    salt = hashlib.sha256(data).digest()[:16]
+    print(f"salt = {salt}")
+
+    # 2. Hash the passphrase with Argon2id using the biometric-derived salt
+    ph = PasswordHasher()
+    passphrase_hash = ph.hash(passphrase.encode('utf-8'), salt=salt)
+    print(f"Argon2id(passphrase, salt) = {passphrase_hash}")
+
+    # 3. Hash the biometric data with SHA-256 (for the HKDF input)
+    biometric_hash_for_hkdf = hashlib.sha256(biometric_data.encode('utf-8')).digest()
+
+    # 4. Combine the hashes with HKDF
+    hkdf = Hkdf(salt, passphrase_hash.encode('utf-8'))
+    seed = hkdf.expand(biometric_hash_for_hkdf, 16)  # 16 bytes = 128 bits for BIP39
+    print(f"16-Byte HDKF combined hashes = {seed}")
+
+    return seed
 
 # Encryption Functions
 def key_expansion(key):
@@ -64,7 +95,7 @@ def process_biometrics(face_path, finger_path, key):
     finger_analysis_result = get_descriptors(img1)  # Get fingerprint descriptors
     processed_biometric = face_analysis_result + finger_analysis_result  # Concatenate face and fingerprint data
     sha256_hash = hashlib.sha256(processed_biometric.encode()).digest()  # Compute SHA-256 hash of the data
-    encrypted_data = encrypt_aes_cbc(sha256_hash, key)  # Encrypt the hash
+    encrypted_data = derive_seed_from_biometric_salt(passphrase=key, biometric_data=processed_biometric)  # 128 bit
     checksum = hashlib.sha256(encrypted_data).digest()  # Compute checksum of the encrypted data
     first_4_bits = checksum[0] >> 4  # Extract the first 4 bits of the checksum
     encrypted_data_bits = ''.join(format(byte, '08b') for byte in encrypted_data)  # Convert encrypted data to binary string
